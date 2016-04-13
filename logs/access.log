@@ -1,0 +1,86 @@
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:44:11,829", "message": null, "endpoint": "/test/user/", "request": {}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:44:11,832", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:20,330", "message": null, "endpoint": "/test/user/", "request": {}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:20,354", "message": "Unsupported media type \"text/plain; charset=UTF-8\" in request.", "payload": null, "success": false, "error": {"code": 415}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:25,875", "message": null, "endpoint": "/test/user/", "request": {}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:25,877", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:54,583", "message": null, "endpoint": "/test/user/", "request": {"permissions": {"admin_portal": "read", "vendor_portal": "read"}, "name": "Saurabh Pandey", "email": "saurabh.pandey@roder.in"}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:54,585", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:55,885", "message": null, "endpoint": "/test/user/", "request": {"permissions": {"admin_portal": "read", "vendor_portal": "read"}, "name": "Saurabh Pandey", "email": "saurabh.pandey@roder.in"}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:45:55,886", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:48:45,539", "message": null, "endpoint": "/test/user/", "request": {"permissions": {"admin_portal": "read", "vendor_portal": "read"}, "name": "Saurabh Pandey", "email": "saurabh.pandey@roder.in"}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 11:48:45,541", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:00:37,259", "message": null, "endpoint": "/test/user/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:00:37,295", "message": "Unhandled Exception", "payload": null, "success": false, "error": {"code": 500}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:01:28,997", "message": null, "endpoint": "/test/user/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:01:29,022", "message": "Bad request must pass password_hash", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:03:26,435", "message": null, "endpoint": "/test/user/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:03:26,496", "message": "Bad request must pass password_hash", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:07:36,597", "message": null, "endpoint": "/test/user/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:07:36,667", "message": "Bad request must pass password_hash", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:08:08,196", "message": null, "endpoint": "/test/user/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:08:08,205", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:09:49,040", "message": null, "endpoint": "/test/user/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:09:49,086", "message": "User added", "payload": "User Added", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:35:59,134", "message": null, "endpoint": "/test/login/", "request": {"auth": "ya29.iQI7EuFW70eWrO29y32qpVAOHOoYfp2Uj35TXMcRqj_xOxMDXsWZCYE48rqEx2RGowSbdvs"}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:36:00,673", "message": "logged in", "payload": {"access_token": "2d74451384dc5ff79b7d2bea083a8a458e818f78"}, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:43:39,120", "message": null, "endpoint": "/test/admin/check/", "request": {}, "method": "GET"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:43:39,296", "message": "User added", "payload": "Showing", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:43:43,789", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:43:43,867", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:45:13,594", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:45:13,772", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:46:48,718", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:46:48,855", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:49:22,320", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:49:22,420", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:00,806", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:01,008", "message": "Unhandled Exception", "payload": null, "success": false, "error": {"code": 500}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:24,526", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:24,578", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:57,668", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:57,671", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:57,746", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 12:59:57,747", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:00:17,975", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:00:18,002", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:00:46,476", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:00:46,571", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:01:06,790", "message": null, "endpoint": "/test/admin/check/", "request": {"email": "saurabh.pandey@roder.in", "permissions": {"admin_portal": "read", "vendor_portal": "read"}}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:01:06,894", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:35,845", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:36,010", "message": "Invalid access token", "payload": null, "success": false, "error": {"code": 401}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:46,432", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:46,491", "message": "Bad request must pass permissions", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:49,216", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:49,217", "message": "Bad request must pass permissions", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:49,818", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:49,819", "message": "Bad request must pass permissions", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:50,256", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:25:50,257", "message": "Bad request must pass permissions", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:26:35,230", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:26:35,260", "message": "Bad request must pass permissions", "payload": null, "success": false, "error": {"code": 400}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:26:57,440", "message": null, "endpoint": "/test/user/", "request": {"admin_portal": 1, "email": "saurabh.pandey@roder.in", "vendor_portal": 2}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:26:57,444", "message": "User added", "payload": null, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:27:30,624", "message": null, "endpoint": "/test/user/", "request": {"vendors_portal": 2, "email": "saurabh.pandey@roder.in", "admin_portal": 1}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:27:30,659", "message": "User added", "payload": "User Added", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:30:42,183", "message": null, "endpoint": "/test/login/", "request": {"auth": "ya29.iQJ6uUGBXVQ2wuIxoAreAv2HmRTn6DhUYTskXQ8XvVfpdwgZ1r1954WGuL-rhhLDeaz3fTI"}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:30:43,458", "message": "logged in", "payload": {"access_token": "821be7030d3c6121911e01c2b73997c878e43639"}, "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:31:20,045", "message": null, "endpoint": "/test/admin/check/", "request": {"vendors_portal": 2, "email": "saurabh.pandey@roder.in", "admin_portal": 1}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:31:20,367", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:31:23,728", "message": null, "endpoint": "/test/admin/check/", "request": {}, "method": "GET"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:31:23,812", "message": "User added", "payload": "Showing", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:31:42,889", "message": null, "endpoint": "/test/admin/check/", "request": {}, "method": "GET"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:31:42,944", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:32:32,965", "message": null, "endpoint": "/test/admin/check/", "request": {}, "method": "GET"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:32:33,001", "message": "User added", "payload": "Showing", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:32:41,931", "message": null, "endpoint": "/test/admin/check/", "request": {}, "method": "GET"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:32:41,962", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:33:15,102", "message": null, "endpoint": "/test/admin/check/", "request": {}, "method": "GET"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:33:15,189", "message": "User added", "payload": "Showing", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:33:18,476", "message": null, "endpoint": "/test/admin/check/", "request": {"vendors_portal": 2, "email": "saurabh.pandey@roder.in", "admin_portal": 1}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:33:18,559", "message": "You do not have permission to perform this action.", "payload": null, "success": false, "error": {"code": 403}}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:33:26,834", "message": null, "endpoint": "/test/admin/check/", "request": {"vendors_portal": 2, "email": "saurabh.pandey@roder.in", "admin_portal": 1}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:33:26,848", "message": "User added", "payload": "Showing", "success": true}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:34:44,848", "message": null, "endpoint": "/test/login/", "request": {"auth": "ya29.iQKTjyYloqQ3fK2_vn3BJqj6k2H-D5FFJVg2REGBT6LBrl0fh32LS4HMKOC5XfSRKJNdHJ8"}, "method": "POST"}
+{"levelname": "DEBUG", "asctime": "2016-02-15 13:34:46,310", "message": "already logged in", "payload": {"access_token": "821be7030d3c6121911e01c2b73997c878e43639"}, "success": true}
