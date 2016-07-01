@@ -16,4 +16,4 @@ class TokenAuthentication(authentication.BaseAuthentication):
         raise exceptions.AuthenticationFailed('Invalid access token')
 
     def authenticate_header(self, request):
-        return 'token'
+        return ['token','admin']

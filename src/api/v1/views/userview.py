@@ -10,7 +10,6 @@ from src.common.models.user import User
 from src.common.libraries.constants import *
 user_lib = UserLib()
 from django_mysqlpool import auto_close_db
-from src.common.helpers.Query2Dict import Query2DictConverter
 
 '''
 {

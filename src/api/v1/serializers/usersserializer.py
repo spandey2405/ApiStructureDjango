@@ -14,5 +14,9 @@ class UsersSerializer(DynamicFieldsModelSerializer):
             KEY_USER_ID,
             KEY_EMAIL_ID,
             KEY_USER_NAME,
+            KEY_FACEBOOK_ID,
+            KEY_GOOGLE_ID,
+            KEY_PHONE_NO,
+            'codemojo_referal_code'
         )
 

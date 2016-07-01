@@ -1,4 +1,5 @@
 import logging
+from src.common.models.request_tmp_booking import RequestTmpBooking
 
 class LoggingMixin(object):
     """
